@@ -1,0 +1,58 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    font-family: monospace, sans-serif;
+    font-size: 120%;
+    background-color: #eee;
+}
+h2{
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    /*border: 1px solid red;*/
+}
+input[type="text"]{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    width: 80%;
+    height: 20px;
+    padding: 1%;
+    font-size: 105%;
+    vertical-align: text-bottom;
+    transition: all 0.30s ease-in-out;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    border-radius: 5px 5px 5px 5px;
+}
+input[type="text"]:focus{
+    border: 1px solid rgba(81, 203, 238, 1);
+}
+div.results-table{
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    padding: 1em;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.results-table > table, th, tr ,td{
+    margin: 0 auto;
+}
+.results-table th{
+    border-bottom: 3px solid black;
+}
+.results-table tr:nth-child(3){
+    background-color: #eee;
+}
+.results{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
